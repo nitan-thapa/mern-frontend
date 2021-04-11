@@ -21,7 +21,7 @@ const Resetpassword = () => {
                 <div className="main-agileits">
                         <div className="form-w3agile">
                             <h3>Reset Password</h3>
-                            <form action="#" method="post">
+                            <form>
                                 <div className="key">
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
                                     <input  type="text"  name="Email"  required=""/>
@@ -32,7 +32,12 @@ const Resetpassword = () => {
                                     <input  type="password"  name="Password" required=""/>
                                     <div className="clearfix"></div>
                                 </div>
-                                <button className="btn btn-warning">Change Password</button>
+                                <div className="key">
+                                    <i className="fa fa-lock" aria-hidden="true"></i>
+                                    <input  type="password"  name="ConfirmPassword" required=""/>
+                                    <div className="clearfix"></div>
+                                </div>
+                                <button className="btn btn-primary">Reset Password</button>
                             </form>
                         </div>
                     </div>

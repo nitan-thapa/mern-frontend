@@ -21,7 +21,7 @@ const Signin = () => {
 		<div className="main-agileits">
 				<div className="form-w3agile">
 					<h3>Login</h3>
-					<form action="#" method="post">
+					<form>
 						<div className="key">
 							<i className="fa fa-envelope" aria-hidden="true"></i>
 							<input  type="text"  name="Email"  required=""/>
